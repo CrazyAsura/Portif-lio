@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Leon Mendonça - Desenvolvedor Full Stack especializado em soluções web modernas">
+    <meta name="keywords" content="desenvolvedor full stack, web development, HTML, CSS, JavaScript, React, Node.js, Python, PHP">
+    <title>Leon Mendonça - Desenvolvedor Full Stack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black text-white font-poppins">
+    <header class="fixed w-full bg-black/90 backdrop-blur-sm z-50 p-6">
+        <nav class="container mx-auto px-6 py-4">
+            <ul class="flex justify-center space-x-8">
+                <li><a href="#home" class="nav-link text-white hover:text-blue-500 transition-colors duration-300" aria-label="Ir para Home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#projects" class="nav-link text-white hover:text-blue-500 transition-colors duration-300" aria-label="Ir para Projetos"><i class="fas fa-code"></i> Projetos</a></li>
+                <li><a href="#about" class="nav-link text-white hover:text-blue-500 transition-colors duration-300" aria-label="Ir para Sobre"><i class="fas fa-user"></i> Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pt-20">
+        <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-blue-900">
+            <article class="profile-card bg-black/50 backdrop-blur-md p-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-300">
+                <figure class="text-center">
+                    <img src="./images/perfil/Imagem de Perfil.jpg" alt="Leon Mendonça Trindade - Desenvolvedor Full Stack" class="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-blue-500 hover:border-white transition-colors duration-300" loading="lazy">
+                    <figcaption>
+                        <h1 class="text-3xl font-bold mb-2 text-blue-400">Desenvolvedor Full Stack</h1>
+                        <h2 class="text-xl mb-4 text-gray-300">Transformando ideias em soluções digitais inovadoras</h2>
+                        <p class="name text-2xl font-semibold mb-6 text-white">Leon Mendonça Trindade</p>
+                        <div class="tech-stack flex flex-wrap justify-center gap-4 text-2xl" aria-label="Tecnologias que domino">
+                            <i class="fab fa-html5 hover:text-blue-500 transition-colors duration-300" title="HTML5"></i>
+                            <i class="fab fa-css3-alt hover:text-blue-500 transition-colors duration-300" title="CSS3"></i>
+                            <i class="fab fa-bootstrap hover:text-blue-500 transition-colors duration-300" title="Bootstrap"></i>
+                            <i class="fab fa-sass hover:text-blue-500 transition-colors duration-300" title="Sass"></i>
+                            <i class="fab fa-js hover:text-blue-500 transition-colors duration-300" title="JavaScript"></i>
+                            <i class="fab fa-npm hover:text-blue-500 transition-colors duration-300" title="npm"></i>
+                            <i class="fab fa-react hover:text-blue-500 transition-colors duration-300" title="React"></i>
+                            <i class="fab fa-node hover:text-blue-500 transition-colors duration-300" title="Node.js"></i>
+                            <i class="fab fa-python hover:text-blue-500 transition-colors duration-300" title="Python"></i>
+                            <i class="fab fa-php hover:text-blue-500 transition-colors duration-300" title="PHP"></i>
+                            <i class="fab fa-git hover:text-blue-500 transition-colors duration-300" title="Git"></i>
+                            <i class="fab fa-github hover:text-blue-500 transition-colors duration-300" title="GitHub"></i>
+                            <i class="fas fa-database hover:text-blue-500 transition-colors duration-300" title="Banco de Dados"></i>
+                            <i class="fas fa-server hover:text-blue-500 transition-colors duration-300" title="Backend"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <section id="projects" class="min-h-screen flex items-center justify-center flex-col py-20 bg-black">
+            <h2 class="text-4xl font-bold text-center mb-12 text-blue-400">Portfólio</h2>
+            <section class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <figure class="project-card bg-gray-900 rounded-xl overflow-hidden transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/50">
+                    <img src="./images/ecommerce-project.jpg" alt="Projeto E-commerce" class="w-full h-48 object-cover" loading="lazy">
+                    <figcaption class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-400">E-commerce</h3>
+                        <i class="fas fa-shopping-cart text-2xl mb-4 text-blue-500 animate-bounce"></i>
+                        <p class="text-gray-300 mb-4">Plataforma completa de comércio eletrônico com recursos modernos e experiência de usuário otimizada. Utilizado MVT (Model View Template).</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">HTML5</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">CSS3</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">Tailwind CSS</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">Python</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">Django</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">SQLite</span>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure class="project-card bg-gray-900 rounded-xl overflow-hidden transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/50">
+                    <img src="./images/ecommerce-project.jpg" alt="Projeto Blog" class="w-full h-48 object-cover" loading="lazy">
+                    <figcaption class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-400">Blog</h3>
+                        <i class="fas fa-shopping-cart text-2xl mb-4 text-blue-500 animate-bounce"></i>
+                        <p class="text-gray-300 mb-4">Plataforma completa de Blog com recursos modernos e experiência de usuário otimizada. Utilizado MVT (Model View Template).</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">HTML5</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">CSS3</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">Tailwind CSS</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">Python</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">Django</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">SQLite</span>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure class="project-card bg-gray-900 rounded-xl overflow-hidden transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/50">
+                    <img src="./images/ecommerce-project.jpg" alt="Projeto E-commerce" class="w-full h-48 object-cover" loading="lazy">
+                    <figcaption class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-400">Mais Negócios - Banco Social</h3>
+                        <i class="fas fa-shopping-cart text-2xl mb-4 text-blue-500 animate-bounce"></i>
+                        <p class="text-gray-300 mb-4">Plataforma completa de comércio eletrônico com recursos modernos e experiência de usuário otimizada. Utilizado MVT (Model View Template), DAO (Data Access Object) e Processing.</p>
+                        <article class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">HTML5</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">CSS3</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">Tailwind CSS</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">JavaScript</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">PHP</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">MySQL</span>
+                            <span class="px-3 py-1 bg-blue-900 rounded-full text-sm">Xampp</span>
+                        </article>
+                    </figcaption>
+                </figure>
+            </section>
+        </section>
+
+        <section id="about" class="min-h-screen flex items-center justify-center py-20 bg-gradient-to-t from-black to-blue-900">
+            <section class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12 text-blue-400">Sobre mim</h2>
+                <p class="text-lg text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed">
+                    Olá! Sou Leon, um desenvolvedor Full Stack apaixonado por criar soluções digitais inovadoras. Com dois anos de experiência em desenvolvimento web, 
+                    combino criatividade e expertise técnica para transformar ideias em realidade. Minha jornada inclui formação em Informática Básica, 
+                    Lógica de Programação e Desenvolvimento Web, além de constante aprendizado autodidata.
+                </p>
+                <article class="flex justify-center gap-8 text-4xl text-blue-400">
+                    <i class="fas fa-laptop-code hover:text-blue-500 transition-colors duration-300" title="Desenvolvimento Web"></i>
+                    <i class="fas fa-mobile-alt hover:text-blue-500 transition-colors duration-300" title="Design Responsivo"></i>
+                    <i class="fas fa-database hover:text-blue-500 transition-colors duration-300" title="Banco de Dados"></i>
+                    <i class="fas fa-server hover:text-blue-500 transition-colors duration-300" title="Backend"></i>
+                </article>
+            </section>
+        </section>
+    </main>
+        
+    <footer class="bg-black py-12 border-t border-blue-900">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <section class="text-center">
+                    <p class="text-gray-400">© 2024 Leon Mendonça. Todos os direitos reservados.</p>
+                </section>
+                <section class="text-center">
+                    <p class="mb-4"><i class="fas fa-envelope text-blue-500"></i> <a href="mailto:leoncdzt@gmail.com" class="hover:text-blue-500 transition-colors duration-300">leoncdzt@gmail.com</a></p>
+                    <a href="https://github.com/CrazyAsura" target="_blank" rel="noopener noreferrer" class="text-2xl hover:text-blue-500 transition-colors duration-300" aria-label="Perfil no GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <div class="mt-4">
+                        <p class="mb-2"><i class="fas fa-phone text-blue-500"></i> Contatos:</p>
+                        <p><a href="tel:+5579999576753" class="hover:text-blue-500 transition-colors duration-300">+55 (79) 99957-6753</a></p>
+                        <p><a href="tel:+5579999255848" class="hover:text-blue-500 transition-colors duration-300">+55 (79) 99925-5848</a></p>
+                    </div>
+                </section>
+                <section class="flex justify-center gap-4">
+                    <a href="#" class="hover:text-blue-500 transition-colors duration-300" target="_blank" rel="noopener noreferrer" aria-label="Perfil no Instagram"><i class="fab fa-instagram text-2xl"></i></a>
+                    <a href="#" class="hover:text-blue-500 transition-colors duration-300" target="_blank" rel="noopener noreferrer" aria-label="Contato via WhatsApp"><i class="fab fa-whatsapp text-2xl"></i></a>
+                    <a href="#" class="hover:text-blue-500 transition-colors duration-300" target="_blank" rel="noopener noreferrer" aria-label="Contato via Telegram"><i class="fab fa-telegram text-2xl"></i></a>
+                </section>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
